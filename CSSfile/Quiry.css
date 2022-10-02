@@ -1,0 +1,30 @@
+/**************550px=35em******/
+@media(max-width:35em){
+
+    .header{
+        /* max-width: 7rem; */
+        column-gap: 3rem;
+        row-gap: 2rem;
+        /* padding-left: 2rem; */
+        background-color: aqua;
+    
+    }
+    .primary-header{
+        font-size: 2.4rem;
+        background-color: blue;
+    }
+   
+
+
+    .nav-list{
+        gap: 0.1rem;
+    }
+    .nav-link{
+        font-size: 0.8rem;
+    }
+
+
+
+
+}
+

@@ -1,21 +1,21 @@
 .body{
     font-family:sans-serif;
-    /* background-color: rgb(38, 38, 107); */
     color: #Fff;
      background-image: linear-gradient(dodgerblue,#000);
      background-size: cover;
      height: 100vh;
+     font-size: 10px=1rem;
 }
 .header{
-    max-width: 1200px;
+    max-width: 120rem;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: start;
-    column-gap: 80px;
-    row-gap: 60px;
-    padding-left: 60px;
+    column-gap: 8rem;
+    row-gap: 6rem;
+    padding-left: 6rem;
     position: relative;
 
 }
@@ -41,10 +41,10 @@
 .nav-link:visited{
     text-decoration: none;
     color: #fff;
-    padding-bottom: 5px;
+    padding-bottom: 0.1rem;
 }
 .btn{
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 .nav-link:hover,
 .nav-link:active{
@@ -52,21 +52,28 @@
 }
 .list-frist{
     border-bottom: 1px solid #fff;
-    padding-bottom: 5px;
+    padding-bottom: 0.1rem;
 }
 .nav-list{
     list-style: none;
     display: flex;
     align-content: center;
     justify-content: center;
-    gap: 50px;
+    gap: 5rem;
+}
+
+.imagecon{
+    padding: 1rem 1rem;
+    background-color: #Fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 /******************/
 /*****Primary header*****/
 /******************/
 
 .primary-header{
-    font-size: 48px;
+    font-size: 3.6rem;
     font-weight: 600;
 }
 .hero-img{
@@ -86,10 +93,10 @@
 }
 
 .btn{
-    padding: 6px 24px;
+    padding: 0.6rem 2.4rem;
     background-color: #Fff;
     display: block;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     color: rgb(8, 8, 43);
     border: #Fff solid 1px;
 }
@@ -111,8 +118,8 @@
 .bus-pra{
     background-color:rgb(8, 8, 43); 
     color: #Fff;
-    padding-left: 2px;
-    padding-right: 6px;
+    padding-left: 0.2rem;
+    padding-right: 0.6rem;
 }
 
 
@@ -134,19 +141,19 @@
 }
 .prodcut_header_grid{
     display:grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 30rem 1fr;
  }
 .header_div_list{
     display: grid;
     grid-template-columns: 1fr;
     justify-items: start;
-    gap: 20px;
-    padding-top: 30px;
+    gap: 1rem;
+    padding-top: 1rem;
     justify-items: center;
     align-content:center ;
 }
 .header_list_item{
-    height: 50px;
+    height: 4rem;
    list-style: none;
 }
 .links_header:link,
@@ -162,13 +169,13 @@
 }
 .header_list_item{
     color: #0b3870;
-    padding: 8px 80px;
+    padding: 0.8rem 8rem;
     border: #Fff 1px solid;
     text-decoration: none;
     background-color:#fff;
     margin: 0px 0 5px auto;
     box-shadow: 0px 5px 5px rgb(202, 201, 201);
-    border-left: 30px solid #0b3870;
+    border-left: 3rem solid #0b3870;
     text-align: center;
 }
 
@@ -201,7 +208,8 @@
     /* border: #555 solid 2px; */
 }
 .lbale_product,.navg_product
-{ padding: 20px 30px;
+{ 
+    padding: 1rem 1rem;
   background-color: #0b3870;
 }
 
@@ -209,9 +217,9 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows:  1fr 1fr;
-    column-gap: 20px;
-    row-gap: 40px;
-    margin:0px 50px 0 0; 
+    column-gap: 1rem;
+    row-gap: 6rem;
+    margin:0px 2rem 0 0; 
 }
 .div1_ful1{
 
@@ -221,10 +229,10 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-    padding: 10px 50px;
+    padding: 1rem 2rem;
 }
 .link_full_btn{
-    padding: 5px 10px;
+    padding: 0.5rem 1rem;
     background-color: #fff;
     color: #0b3870;
     text-decoration: none;
@@ -272,59 +280,59 @@ margin-top: 5px;
 
 .testimo_1_flex{
     font-family: sans-serif;
-    margin: 50px 80px;
+    margin: 5rem 8rem;
     /* border: #000 solid 2px; */
 }
 .test_img_list{
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     display: flex;
-    gap: 20px;
+    gap: 2rem;
 
 }
 .testimo_prg{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1rem;
 }
 .testimo_numb{
     padding: 3px 8px;
     background-color: #000;
     color: #Fff;
     border: #333 solid 1px;
-    border-radius: 40px;
+    border-radius: 4rem;
     align-self: flex-start;
 }
 /******************/
 /***** Footer sectiom*****/
 /******************/
 .footer_section{
-    margin-top: 80px;
+    margin-top: 8rem;
 }
 
 
 .footer_grid3{
     display: grid;
-    grid-template-columns: 500px 300px 1fr;
+    grid-template-columns: 50rem 30rem 1fr;
     color: #Fff;
     background-color:#0b3870;
-    padding: 20px 80px;
+    padding: 2rem 8rem;
     padding: auto auto;
 }
 .div_list_foot{
     display: flex;
-    gap: 40px;
+    gap: 4rem;
 }
 .ul_list_foot{
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 .list{
     list-style: none;
 }
 h5,h2{
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 .input_footer{
-    padding: 4px 15px;
+    padding: 0.4rem 1.5rem;
     background-color: #Fff;
     border: #Fff solid 1px;
     border-radius: 5px;
@@ -339,7 +347,7 @@ h5,h2{
 
 .Contacta_second_head{
     text-align: center;
-    padding: 40px 60px;
+    padding: 4rem 6rem;
     margin: auto auto;
 }
 
@@ -347,26 +355,26 @@ h5,h2{
 
 .Contacta_form{
     /* border: #000 solid 2px; */
-    margin: 80px 300px;
-    padding: 30px 10px;
+    margin: 8rem 30rem;
+    padding: 3rem 1rem;
     padding: auto auto;
     text-align: center;
 }
 .contacta_links{
-    padding: 10px 80px;
+    padding: 1rem 8rem;
     border: #555 solid 1px;
-    margin-left:10px;
+    margin-left:1rem;
     border-radius: 5px;
     background-color: #Fff;
     text-decoration: none;
     color: #000;
 }
 .div_form_conta{
-    margin-top: 20px ;
+    margin-top: 2rem;
 }
 .contacta_input{
-    margin: 30px 10px;
-    padding: 80px 260px;
+    margin: 3rem 1rem;
+    padding: 8rem 2.6rem;
     color: #000;
     border-radius: 5px;
     border: #555 solid 1px;
@@ -392,17 +400,17 @@ h5,h2{
 }
 .servici_testimonil{
     border: #000 solid 2px;
-    padding: 40px 80px;
+    padding: 4rem 8rem;
     padding: auto auto;
     display: flex;
-    gap: 30px;
+    gap: 3rem;
 }
 
 .div_srevice{
     font-family:sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 4rem;
 }
 .Contactanos{
     justify-self: start;
@@ -418,20 +426,20 @@ h5,h2{
     
 }
 .header_img_product1{
-    max-width: 1300px;
+    max-width: 130rem;
 
 }
 .gallery{
     /* text-align: center; */
     background-color: rgb(231, 226, 226);
-    padding: 10px 20px;
+    padding: 1rem 2rem;
 }
 .gallry_header,.text_pro{
-    max-width: 1100px;
-    margin: 50px 40px;
+    max-width: 110rem;
+    margin: 5rem 4rem;
     /* margin: auto auto; */
     display: flex;
-    padding: 0 40px;
+    padding: 0 4rem;
     padding: auto auto;
 }
 .text_img_pro1{
@@ -440,14 +448,14 @@ h5,h2{
 }
 .div1_gallery{
     text-align: center;
-    margin: 10px 50px;
+    margin: 1rem 5rem;
     /* margin: auto auto; */
 }
 .text_pro{
-    margin: 30px 90px;
+    margin: 3rem 9rem;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 3rem;
     font-family: sans-serif;
 }
 .call_action_div{
@@ -455,7 +463,7 @@ h5,h2{
     justify-content: space-between;
 }
 .call_action{
-    padding: 50px 50px;
+    padding: 5rem 5rem;
     border: #fff solid 1px;
     background-color:white;
     box-shadow: 3px 3px 3px 3px #777;
